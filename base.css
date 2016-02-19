@@ -1,6 +1,6 @@
 /*stylesheet for testpage*/
 
-border-style: 
+body: 
 {
   background-color: #D1EAFF;
 }
@@ -15,6 +15,18 @@ border-style:
 
 #welcome
 {
+  font-family: Times;
+  text-align: left;
+  font-size: 12;
+  margin: 10px;
   
-  
+}
+
+.header h2
+{
+  font-family: Helvetica, Arial;
+  font-weight: bold;
+  text-align: center;
+  font-size: 16;
+
 }
