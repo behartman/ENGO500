@@ -220,6 +220,12 @@ a.pure-button-primary {
     margin: 2em 0 1em;
 }
 
+.content-head2 {
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
 /* This is a modifier class used when the content-head is inside a ribbon */
 .content-head-ribbon {
     color: white;
@@ -247,6 +253,10 @@ a.pure-button-primary {
 .   r {
     background: #111
     ;
+}
+
+.buffer {
+    padding: 10px;
 }
 
 /*

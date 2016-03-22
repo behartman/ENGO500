@@ -95,12 +95,12 @@
             bounds = L.latLngBounds(northeast,southwest);
         var map = L.map('map',{
           maxBounds: bounds
-        }).setView([51.077979,-114.130492], 16);
+        }).setView([51.045,-114.130492], 16);
 
         //load a tile layer
         L.tileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
           {
-            maxZoom: 20,
+            maxZoom: 30,
             minZoom: 16,
             attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           }).addTo(map);
@@ -123,7 +123,7 @@
 
         // Engineering E Block: Geomatics Homeroom
         var Geomarker = L.marker([51.079777, -114.132488]).addTo(map);
-        Geomarker.bindPopup("<b>Geomatics Homeroom</b> <br>Download Speed: "+ String(dn)+ "<br>Upload Speed: "+ String(up)+ "<br>Temperature: "+ String(temp)+ "&deg;C <br>Noise Level: <br>").openPopup();
+        Geomarker.bindPopup("<b>Geomatics Homeroom</b> <br>Download Speed: "+ String(dn)+" Mbps"+ "<br>Upload Speed: "+ String(up)+" Mbps"+ "<br>Temperature: "+ String(temp)+ "&deg;C <br>Noise Level:"+ " dB"+ "<br>").openPopup();
 
         // ICT
         var ICTmarker = L.marker([51.08017, -114.130302]).addTo(map);
@@ -178,7 +178,7 @@
                     Wi-Fi Speed
                 </h3>
                 <p>
-                    Having fast internet helps you get your studying done faster
+                    Having fast internet helps you get your studying done faster.
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
@@ -196,7 +196,7 @@
                     Noise Level
                 </h3>
                 <p>
-                    Whether you like a quiet study space, or a more busy space with lots of action, this map can help!
+                    Whether you like a quiet study space, or a busier space with lots of action, using the interactive map can help.
                 </p>
             </div>
             <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
@@ -205,20 +205,25 @@
                     Optimal Space
                 </h3>
                 <p>
-                    Combine these three factors to find the best study space!
+                    Click on the different study areas to see which environment is right for you, so you can spend less time finding a space and more time hitting the books.
     </div>
 
     <div class="ribbon l-box-lrg pure-g">
+
         <div class="l-box-lrg is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-            <img class="pure-img-responsive" alt="File Icons" width="300" src="img/common/grouppic.jpg">
+            <iframe width="448" height="252" src="https://www.youtube.com/embed/7R6Z9y7NJcE" frameborder="0" allowfullscreen></iframe>
         </div>
+
         <div class="pure-u-1 pure-u-md-1-2 pure-u-lg-3-5">
+            <div class="buffer"> 
+            <p> <br> </p>
+            </div>
 
-            <h2 class="content-head content-head-ribbon">Our Project:</h2>
-
+            <h2 class="content-head2 content-head-ribbon">Our Project:</h2>
             <p>
                 In the future, everything will be connected with sensors as an Internet of Things (IOT). IOT empowers citizens to innovate with the data collected around them by making the data easily accessible on the Internet. In this project, sensors are placed in various locations around the University of Calgary campus, and data is gathered to describe the different building environments. Focusing the data collection on Wi-Fi speed, temperature, and noise level allows users to effectively compare study spaces according to their preferences. As the data is collected in real-time, it is presented on a user-friendly website to allow students to make smart, quick decisions when selecting a study space
             </p>
+
         </div>
     </div>
 
