@@ -1,1 +1,14 @@
-var data1 = {"result":"22.5935","resultTime":null,"@iot.selfLink":"https://pg-api.sensorup.com/st-playground/proxy/v1.0/Observations(258868)","@iot.id":258868,"phenomenonTime":"2016-03-08T19:30:15.447Z","FeatureOfInterest@iot.navigationLink":"../Observations(258868)/FeatureOfInterest","Datastream@iot.navigationLink":"../Observations(258868)/Datastream","Location":"ENE333"}
+var data1 = []
+data1.push(['21.2','0'])
+data1.push(['22.5','1'])
+data1.push(['26.7','2'])
+data1.push(['21.2','3'])
+data1.push(['22.5','4'])
+data1.push(['26.7','5'])
+data1.push(['21.2','6'])
+data1.push(['22.5','7'])
+data1.push(['26.7','8'])
+data1.push(['26.7','9'])
+data1.push(['26.7','10'])
+data1.push(['26.7','11'])
+data1.push(['26.7','12'])
